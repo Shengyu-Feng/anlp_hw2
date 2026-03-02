@@ -1,0 +1,59 @@
+# General Info and History
+# Wikipedia: depth 0 — just the article itself, following links leads to irrelevant wiki pages
+https://en.wikipedia.org/wiki/Pittsburgh 0
+https://en.wikipedia.org/wiki/History_of_Pittsburgh 0
+https://en.wikipedia.org/wiki/List_of_museums_in_Pittsburgh 0
+https://en.wikipedia.org/wiki/Pittsburgh_Penguins  0
+https://en.wikipedia.org/wiki/Pittsburgh_Steelers 0
+https://en.wikipedia.org/wiki/Pittsburgh_Pirates 0
+https://en.wikipedia.org/wiki/University_of_Pittsburgh 0
+https://en.wikipedia.org/wiki/Pittsburgh_Riverhounds_SC 0
+
+
+# City government: depth 1 — homepage links to useful subpages (mayor, departments, services)
+https://www.pittsburghpa.gov/Home 1
+# Tax page: depth 0 — just the one page with the regulations table
+https://pittsburghpa.gov/finance/tax-forms 0
+# PDF: depth 0 — single document, no crawling needed
+https://www.pittsburghpa.gov/files/assets/city/v/4/omb/documents/operating-budgets/2025-operating-budget.pdf 0
+
+# Britannica: depth 0 — single article, links go to unrelated topics
+https://www.britannica.com/place/Pittsburgh 0
+
+# Visit Pittsburgh: depth 2 — rich site with events, food, sports subpages worth crawling
+https://www.visitpittsburgh.com 2
+https://www.visitpittsburgh.com/events-festivals/food-festivals/ 2
+https://www.visitpittsburgh.com/things-to-do/pittsburgh-sports-teams/ 1
+
+# CMU: depth 1 — about page links to history, facts, leadership subpages
+https://www.cmu.edu/about/ 1
+# CMU events: depth 1 — event listings link to individual event pages
+https://events.cmu.edu 1
+https://www.cmu.edu/engage/alumni/events/campus/index.html 1
+
+# Events calendars: depth 1 — need to follow links to individual event pages
+https://pittsburgh.events 1
+https://downtownpittsburgh.com/events/ 1
+# City Paper: depth 1 — search results link to individual event listings
+https://www.pghcitypaper.com/pittsburgh/EventSearch?v=d 1
+
+# Arts & Culture: depth 1 — homepages link to season/event subpages worth having
+https://www.pittsburghsymphony.org 1
+https://pittsburghopera.org 1
+https://trustarts.org 1
+https://carnegiemuseums.org 1
+https://www.heinzhistorycenter.org 1
+https://www.thefrickpittsburgh.org 1
+
+# Food festivals: depth 2 — small dedicated sites, subpages have schedule/vendor/event details
+https://www.picklesburgh.com/ 2
+https://www.pghtacofest.com/ 2
+https://pittsburghrestaurantweek.com/ 2
+https://littleitalydays.com 2
+https://bananasplitfest.com 2
+
+# Sports: depth 1 — team homepages link to schedule, roster, news
+# (depth 0 would miss too much; depth 2 would explode into news/stats pages)
+https://www.mlb.com/pirates 1
+https://www.steelers.com 1
+https://www.nhl.com/penguins/ 1
